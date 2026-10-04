@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D5_JobPortal</title>
+    <style>
+        form
+        {
+            margin-left: 100px;
+        }
+        .firstName
+        {
+            margin-right: 150px;
+        }
+        .motherName
+        {
+            margin-left: 150px;
+        }
+        .genderLb
+        {
+            margin-left: 150px;
+        }
+        .age
+        {
+            margin-right: 250px;
+        }
+        .password_lb
+        {
+            margin-left: 150px;
+        }
+        .role
+        {
+            width: 250px;
+        }
+        .lang_lb
+        {
+            margin-left: 150px;
+        }
+        .lang
+        {
+            width: 250px;
+        }
+        .resume
+        {
+            margin-left: 150px;
+        }
+        .submit
+        {
+            margin-left: 150px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend align="center"><h1>Job Application</h1></legend>
+    <form>
+        <label><h2>Applicant Details : </h2></label>
+        <br>
+        <label>Full Name : </label>
+        <input type="text" required class="firstName">
+        <label>Father's Name : </label>
+        <input type="text">
+        <label class="motherName" >Mother's Name : </label >
+        <input type="text">
+        <br><br><br>
+        <label>Age :</label>
+        <input type="number" required min="18" max="75" class="age">
+        <label>Date Of Birth :</label>
+        <input type="date" required max="2008-09-24" min="1960-01-01">
+        <label class="genderLb">Gender :</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Others">Others
+        <br><br><br>
+        <label>Set Username :</label>
+        <input type="text" placeholder="UserName" maxlength="20" required>
+        <label class="password_lb">Set Password :</label>
+        <input type="password" placeholder="password" required maxlength="30" minlength="5">
+        <br><br><br>
+        <label>Skills :</label>
+        <input type="checkbox" name="skill" value="HTML">HTML
+        <input type="checkbox" name="skill" value="React">React
+        <input type="checkbox" name="skill" value="CSS">CSS
+        <input type="checkbox" name="skill" value="JavaScript">JavaScript
+        <input type="checkbox" name="skill" value="Net">.Net
+        <input type="checkbox" name="skill" value="C#">C#
+        <input type="checkbox" name="skill" value="C++">C++
+        <input type="checkbox" name="skill" value="Python">Python
+        <br><br><br>
+        <label>Select the Role you want to apply :</label>
+        <select class="role">
+            <option>Full Stack Developer</option>
+            <option>Backend Developer</option>
+            <option>Frontend Developer</option>
+            <option>AI Engineer</option>
+        </select>
+        <label class="lang_lb">Select All Known Languages :</label>
+        <select class="lang" multiple>
+            <option>Tamil</option>
+            <option>English</option>
+            <option>Japanese</option>
+            <option>Hindi</option>
+            <option>Kannada</option>
+            <option>Telugu</option>
+            <option>Malayalam</option>
+            <option>Marathi</option>
+            <option>Spanish</option>
+            <option>German</option>
+            <option>French</option>
+        </select>
+        <br><br><br>
+        <label>Portfolio link :</label>
+        <input type="url">
+        <label class="resume">Upload Resume and Certificates :</label>
+        <input type="file" multiple accept=".pdf, .docx, .jpg">
+        <br><br><br>
+        <label>Cover Letter :</label>
+        <textarea cols="60" rows="6"></textarea>
+        <button class="submit" type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button" disabled>Delete</button>
+
+
+
+    </form>
+    </fieldset>
+    
+</body>
+</html>
