@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Task Given Date:30/9/26-->
+    <!--Task 2,4-->
+    <title>CSS Selector Practice</title> 
+    <style>
+            *
+            {
+                margin-left: 100px;
+            }
+            h1
+            {
+                font-style:normal;
+                color: rgb(0, 246, 164);
+                background-color: #fbcece;
+            }
+            h2,h3
+            {
+                font-style: italic;
+                color: #ff3b3b;
+            }
+            #profile-button
+            {
+                background-color: #ff3b3b;
+            }
+            .projects
+            {
+                background-color: bisque;
+            }
+            .project-card_1
+            {
+            background-color: cadetblue;
+            }
+            .project-card_2
+            {
+                text-decoration: overline;
+            }
+            #li_1 /*Code to test multiple rules to same element*/
+            {
+                background-color: rgb(255, 83, 198);
+            }
+            .list
+            {
+                background-color: rgb(225, 248, 50);
+            }
+            ul{
+                background-color: darkseagreen;
+            }
+            
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Profile</h1>
+        <p class="subtitle">Learning HTML and CSS</p>
+    </header>
+
+    <main>
+
+        <section class="profile">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I'm learning web development and practicing CSS selectors.
+            </p>
+
+            <p class="highlight">
+                This paragraph has a class.
+            </p>
+
+            <button id="profile-button">View Profile</button>
+        </section>
+
+
+        <section class="skills" >
+            <h2>My Skills</h2>
+
+            <ul class="list" id="li_1">
+                <li>HTML</li>
+                <li class="highlight">CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
+        </section>
+
+
+        <section class="projects">
+            <h2>My Projects</h2>
+
+            <article class="project-card_1">
+                <h3>Project One</h3>
+                <p>A simple HTML and CSS project.</p>
+                <a href="#">View Project</a>
+            </article>
+
+            <article class="project-card_1 project-card_2">
+                <h3>Project Two</h3>
+                <p>A small JavaScript project.</p>
+                <a href="#">View Project</a>
+            </article>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Made while learning CSS</p>
+    </footer>
+
+</body>
+</html>

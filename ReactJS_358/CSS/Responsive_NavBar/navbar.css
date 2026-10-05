@@ -1,0 +1,25 @@
+.head
+{
+    background-color: rgb(43, 255, 227);
+    height: 125px;;
+    display: flex;
+    padding: 20px;
+}
+body
+{
+    margin: 0px;
+}
+h1
+{
+    margin: 0px;
+}
+nav
+{
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+nav a
+{
+    display: in;
+}

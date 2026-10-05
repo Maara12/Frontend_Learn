@@ -1,0 +1,68 @@
+/* Intentionally broken code given by chatgpt */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px;
+    background-color: #222222;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    background-color: white;
+
+    padding: 10px;
+}
+
+.card {
+    width: 500px;
+    background-color: #dddddd;
+
+    padding: 20px;
+
+    margin: 30px auto;
+}
+
+.card h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.card button {
+    padding: 10px 20px;
+}

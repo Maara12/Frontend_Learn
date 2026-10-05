@@ -1,0 +1,39 @@
+body
+{
+    background-color: rgb(154, 216, 255);
+    /* background-image: image("https://d3i6fh83elv35t.cloudfront.net/newshour/app/uploads/2014/07/DetectiveComics31-copy.jpg"); */
+}
+main
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    background-color: rgb(77, 186, 254);
+    width: 500px;
+    height:  300px;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+}
+.card img
+{
+    width: 150px;
+    height:200px;
+    object-fit: cover;
+}
+.card_2 h2
+{
+    margin-left: 50px;
+    text-align: center;
+}
+.card_2 p
+{
+    margin-left: 50px;
+   
+}
