@@ -1,0 +1,187 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(10, 15, 30);
+    height: 100vh;
+}
+header
+{
+    margin: 0px;
+    background-color: rgb(20, 27, 50);
+    padding: 20px;
+    height: 15%;
+    text-align: center;
+    border-bottom: 2px solid rgb(42, 211, 255);
+    color:  rgb(42, 211, 255);;
+}
+header h1{
+    margin: 0px;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+header p
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.navi
+{
+    margin: 0px;
+    background-color: rgb(17, 67, 102);
+    padding: 18px;
+    text-align: center;
+    border-bottom: 2px solid rgb(42, 211, 255);
+    position: sticky;
+    top: 0;
+}
+.navi a
+{
+    padding: 18px 50px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(230, 247, 255);
+    transition: background-color 0.3s ease;
+}
+.navi a:hover
+{
+    background-color: rgb(25, 115, 155);
+}
+.hero
+{
+    margin: 0px;
+    padding: 100px;
+    background-color: rgb(7, 13, 35);
+    background-image: url(https://static.wikia.nocookie.net/voice-over-and-voice-acting/images/1/17/BruceWayne_Batman_DComics01.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+    color: rgb(230, 247, 255);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(42, 211, 255);
+}
+.hero h2
+{
+    font-size: 32px;
+}
+.hero p
+{
+    font-size: 18px;
+}
+.hero button
+{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(42, 211, 255);
+}
+.hero button:hover
+{
+    background-color: rgb(0, 170, 200);
+}
+.about
+{
+    width: 80%;
+    margin: 100px auto;
+    padding: 60px;
+    background-color: rgb(15, 25, 50);
+    color: rgb(230, 247, 255);
+    font-weight: bold;
+    box-shadow: -1px 4px 12px 0px rgb(0, 0, 0);
+}
+.about h2
+{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0px;
+    text-transform: uppercase;
+
+}
+.about p
+{
+    margin: 20px 0px;
+    line-height:2;
+    font-size: 16px;
+    text-align: center;
+}
+.skills
+{
+    width: 80%;
+    margin: 100px auto;
+    padding: 60px;
+    background-color: rgb(15, 25, 50);
+    color: rgb(230, 247, 255);
+    font-weight: bold;
+    box-shadow: -1px 4px 12px 0px rgb(0, 0, 0);
+    text-align: center;
+}
+.skills h2
+{
+    font-size: 28px;
+    margin: 20px 0px;
+}
+.skills .skill
+{
+    display: inline-block;
+    margin: 25px;
+    padding: 20px;
+    border: 2px solid rgb(120, 180, 255);
+    width: 15%;
+}
+.projects
+{
+    width: 80%;
+    margin: 100px auto;
+    padding: 60px;
+    background-color: rgb(15, 25, 50);
+    color: rgb(230, 247, 255);
+    font-weight: bold;
+    box-shadow: -1px 4px 12px 0px rgb(0, 0, 0);
+    text-align: center;
+}
+.projects h2
+{
+    font-size: 28px;
+    margin: 20px 0px;
+}
+.projects .project
+{
+    display: inline-block;
+    margin: 25px;
+    padding: 50px;
+    border: 2px solid rgb(120, 180, 255);
+    width: 40%;
+}
+.projects .project h3
+{
+    font-size: 24px;
+}
+.projects .project img
+{
+    width: 70%;
+    height: 200px;
+}
+.contact
+{
+    width: 80%;
+    margin: 100px auto;
+    padding: 60px;
+    background-color: rgb(15, 25, 50);
+    color: rgb(230, 247, 255);
+    font-weight: bold;
+    box-shadow: -1px 4px 12px 0px rgb(0, 0, 0);
+    text-align: center;
+}
+footer
+{
+    
+    margin: 100px auto;
+    padding: 60px;
+    color: rgb(210, 225, 240);
+    font-weight: bold;
+    box-shadow: -1px 4px 12px 0px rgb(0, 0, 0);
+    text-align: center;
+}
