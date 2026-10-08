@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaQueryPractice</title>
+    <style>
+        body
+        {
+            background-color: rgb(177, 246, 206);
+            color: rgb(0, 0, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h2
+        {
+            font-size: 36px;
+        }
+        .card
+        {
+            margin: auto;
+            width: 60%;
+            text-align: center;
+            border: 2px solid rgb(41, 39, 27);
+            box-shadow: 2px 2px 2px 2px;
+            background-color: rgb(255, 242, 123);
+            
+        }
+        .navi
+        {
+            display: flex;
+            gap: 50px;
+            padding: 20px;
+            margin: 0px 0px 100px;
+            justify-content: center;
+            border: 2px solid rgb(0, 0, 0);
+            background-color: rgb(103, 255, 161);
+        }
+        .navi a{
+            text-decoration: none;
+            font-size: 22px;
+            color: rgb(0, 42, 65);
+            text-align: center;
+        }
+        @media(max-width:600px)
+        {
+            body
+            {
+                background-color: rgb(235, 255, 248);
+                color: rgb(252, 5, 5);
+                /* font-family:Georgia, 'Times New Roman', Times, serif */
+            }
+            h2
+            {
+                font-size: 26px;
+            }
+            .card
+            {
+                /* margin: auto; */
+                width: 100%;
+                /* text-align: center;
+                border: 2px solid rgb(41, 39, 27);
+                box-shadow: 2px 2px 2px 2px; */
+                
+            }
+            .navi
+            {
+                flex-direction: column;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>MEDIA QUERY</h1> -->
+    <h2>Media Query Makes Web pages Responsive</h2>
+    <h3>CSS</h3>
+    
+    <nav class="navi">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Help</a>
+    </nav>
+
+    <div class="card">
+        <h3>Card</h3>
+        <p>This is a Box Card</p>
+    </div>
+</body>
+</html>
