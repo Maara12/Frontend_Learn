@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MediaQueryPractice</title>
     <style>
+        *
+        {
+            box-sizing: border-box;
+        }
         body
         {
             background-color: rgb(177, 246, 206);
@@ -41,6 +45,48 @@
             color: rgb(0, 42, 65);
             text-align: center;
         }
+        .hero
+        {
+            margin: 100px auto;
+            width: 85;
+            text-align: center;
+            border: 2px solid rgb(41, 39, 27);
+            box-shadow: 2px 2px 2px 2px;
+            background-color: rgb(255, 66, 66);
+            font-size: 26px;
+        }
+        .grid
+        {
+            margin: 100px 0px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        .ag
+        {
+            border: 2px solid blue;
+        }
+        .ag h2{
+            text-align: center;
+        }
+        @media(max-width:768px) 
+        {
+            .grid
+            {
+                
+                grid-template-columns: 1fr 1fr;
+  
+            }
+        }
+        @media(max-width:425px)
+        {
+            .grid
+            {
+                
+                grid-template-columns: 1fr;
+  
+            }
+        }
         @media(max-width:600px)
         {
             body
@@ -67,6 +113,11 @@
                 flex-direction: column;
                 
             }
+            .hero
+            {
+               font-size: 20px;
+               color: white;
+            }
         }
     </style>
 </head>
@@ -74,6 +125,8 @@
     <!-- <h1>MEDIA QUERY</h1> -->
     <h2>Media Query Makes Web pages Responsive</h2>
     <h3>CSS</h3>
+    <p>.
+        </p>
     
     <nav class="navi">
         <a href="#">Home</a>
@@ -81,9 +134,31 @@
         <a href="#">Help</a>
     </nav>
 
+    <section class="hero">
+        <h3>Hero Section</h3>
+        <p>Media queries are useful when you want to modify your site or 
+            app depending on a device's general type (such as print vs. screen)
+             or specific characteristics and parameters (such as screen resolution or browser viewport width)
+        </p>
+    </section>
+
     <div class="card">
         <h3>Card</h3>
         <p>This is a Box Card</p>
     </div>
+
+    <div class="grid">
+        <article class="ag">
+            <h2>Grid Item</h2>
+        </article>
+        <article class="ag">
+            <h2>Grid Item</h2>
+        </article>
+        <article class="ag">
+            <h2>Grid Item</h2>
+        </article>
+    </div>
+
+    
 </body>
 </html>
