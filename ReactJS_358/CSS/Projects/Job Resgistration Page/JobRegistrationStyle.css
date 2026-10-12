@@ -1,0 +1,60 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background: #ffffff;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(209, 255, 247, 1) 100%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+.field
+{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(149, 181, 241);
+    border-radius: 20px;
+}
+.field legend
+{
+    text-align: center;
+}
+#h_Job
+{
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(122, 255, 255);
+    padding: 10px;
+}
+#h_app
+{
+    text-align: start;
+    margin-left: 60px;
+}
+.section_1
+{
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(180, 204, 249);
+}
+.section_1 .s1_Div
+{
+    padding: 15px;
+}
+.section_2
+{
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.section_2 .s2_Div
+{
+    padding: 10px;
+}
